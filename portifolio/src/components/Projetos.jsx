@@ -39,7 +39,6 @@ const Projetos = () => {
                     y: 0,
                     x: 0,
                     rotate: 0,
-                    opacity: 1,
                     ease: "power3.out",
                     duration: 0.5,
                 }
@@ -61,7 +60,7 @@ const Projetos = () => {
 
             <div ref={sectionRef} className='flex gap-10 justify-center flex-wrap'> 
                 <Cards
-                    img="\src\assets\image\projeto-barbearia.png"
+                    img="..\src\assets\image\projeto-barbearia.png"
                     alt="Barbearia"
                     title="Barbearia"
                     icon={[faHtml5, faCss3, faJs, faBootstrap]}
@@ -71,7 +70,7 @@ const Projetos = () => {
                 />
 
                 <Cards
-                    img="\src\assets\image\projeto-clinica.png"
+                    img="..\src\assets\image\projeto-clinica.png"
                     alt="Clinica Odontológica"
                     title="Clinica Odontológica"
                     icon={[faHtml5, faCss3, faJs, faSass]}
@@ -81,7 +80,7 @@ const Projetos = () => {
                 />
 
                 <Cards
-                    img="\src\assets\image\projeto-hamburgueria-tailwindcss.png"
+                    img="..\src\assets\image\projeto-hamburgueria-tailwindcss.png"
                     alt="Hamburgueria"
                     title="Hamburgueria"
                     icon={[faHtml5, faCss3, faJs, faWater]}
