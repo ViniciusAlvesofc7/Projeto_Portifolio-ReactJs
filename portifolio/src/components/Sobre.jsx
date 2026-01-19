@@ -10,9 +10,9 @@ const Sobre = () => {
         });
     }
 
-    const handelDownload = () => {
+    const handleDownload = () => {
         const link = document.createElement('a');
-        link.href = '/pdf/Curriculo_Vinicius_Alves_FrontEnd.pdf';
+        link.href =  `${import.meta.env.BASE_URL}pdf/Curriculo_Vinicius_Alves_FrontEnd.pdf`;
         link.download = 'Curriculo_Vinicius_Alves_FrontEnd.pdf';
         document.body.appendChild(link);
         link.click();
@@ -29,7 +29,7 @@ const Sobre = () => {
                     <span className="text-5xl font-bold text-cyan-800">Vinicius Alves</span>
                     <p className="text-sm text-white">Desenvolvedor Front-End | Javascript | React</p>
                     <div className="flex justify-center gap-4 mt-6">
-                        <button onClick={handelDownload} className="w-36 h-12 bg-cyan-800/80 text-white text-md rounded-xl border-[1px] border-cyan-600 hover:bg-cyan-600 transition-all duration-500 hover:scale-110 cursor-pointer">Download CV</button>
+                        <button onClick={handleDownload} className="w-36 h-12 bg-cyan-800/80 text-white text-md rounded-xl border-[1px] border-cyan-600 hover:bg-cyan-600 transition-all duration-500 hover:scale-110 cursor-pointer">Download CV</button>
                         <button onClick={() => { scrollContato('contato') }} className="w-36 h-12 text-white text-md rounded-xl border-[1px] border-cyan-600 hover:bg-cyan-600 transition-all duration-500 hover:scale-110 cursor-pointer">Entrar em contato</button>
                     </div>
                 </div>
