@@ -12,7 +12,7 @@ const Sobre = () => {
 
     const handelDownload = () => {
         const linnk = document.createElement('a');
-        linnk.href = '../src/assets/pdf/Curriculo_Vinicius_Alves_FrontEnd.pdf';
+        linnk.href = '/pdf/Curriculo_Vinicius_Alves_FrontEnd.pdf';
         linnk.download = 'Curriculo Vinicius Alves.pdf';
         linnk.click();
     }
