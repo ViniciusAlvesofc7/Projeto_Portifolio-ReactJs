@@ -10,7 +10,7 @@ const Contato = () => {
 
         <div className='flex justify-center gap-8 w-full max-w-4xl'>
             <ContatoIcon icon={faEnvelope} text="E-mail" link="https://mail.google.com/mail/u/0/?fs=1&to=viniciusalvesofc7@gmail.com&su=Assunto&body=Mensagem&tf=cm"/>
-            <ContatoIcon icon={faMobileScreenButton} text="Telefone" link="https://api.whatsapp.com/send?phone=5581996392245"/>
+            <ContatoIcon icon={faMobileScreenButton} text="Telefone" link="https://api.whatsapp.com/send?phone=5581986766881"/>
             <ContatoIcon icon={faLinkedinIn} text="Linkedin" link="https://www.linkedin.com/in/vinicius-alves-673a39270/"/>
             <ContatoIcon icon={faGithub} text="Github" link="https://github.com/ViniciusAlvesofc7"/>
 
