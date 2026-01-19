@@ -11,17 +11,19 @@ const Sobre = () => {
     }
 
     const handelDownload = () => {
-        const linnk = document.createElement('a');
-        linnk.href = '/pdf/Curriculo_Vinicius_Alves_FrontEnd.pdf';
-        linnk.download = 'Curriculo Vinicius Alves.pdf';
-        linnk.click();
+        const link = document.createElement('a');
+        link.href = '/pdf/Curriculo_Vinicius_Alves_FrontEnd.pdf';
+        link.download = 'Curriculo_Vinicius_Alves_FrontEnd.pdf';
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
     }
 
     return (
         <section className="w-full pt-24 pb-40 px-6" id="sobre">
 
             <div className="flex flex-col-reverse md:flex-row md:justify-evenly justify-center items-center w-full">
-                
+
                 <div className="flex-col items-center justify-center text-center mt-6">
                     <h2 className="text-4xl font-bold text-white text-start ml-5">Olá, eu sou </h2>
                     <span className="text-5xl font-bold text-cyan-800">Vinicius Alves</span>
@@ -37,7 +39,7 @@ const Sobre = () => {
                         <img src={avatar} alt="Minha Foto" className="w-full h-full object-cover " />
                     </div>
                 </div>
-                
+
             </div>
 
             <div className="mt-30 text-center max-w-[1200px] mx-auto">
@@ -46,7 +48,7 @@ const Sobre = () => {
             </div>
 
             <div className="text-center mt-20 animate-bounce ">
-                <FontAwesomeIcon icon={faAnglesRight}  className="text-white text-3xl cursor-pointer  rotate-90"/>
+                <FontAwesomeIcon icon={faAnglesRight} className="text-white text-3xl cursor-pointer  rotate-90" />
             </div>
 
 
