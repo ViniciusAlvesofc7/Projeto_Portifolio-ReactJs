@@ -3,8 +3,11 @@ import { faReact, faJs, faHtml5, faNodeJs, faCss3, faSass, faBootstrap } from '@
 import { faWater } from "@fortawesome/free-solid-svg-icons"
 import gsap from "gsap"
 import { ScrollTrigger } from "gsap/ScrollTrigger"
-import { use, useRef } from "react"
+import { useRef } from "react"
 import { useGSAP } from "@gsap/react";
+import pjtBarbearia from '/image/projeto-barbearia.png'
+import pjtClinica from '/image/projeto-clinica.png'
+import pjtHamburgueria from '/image/projeto-hamburgueria-tailwindcss.png'
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -60,7 +63,7 @@ const Projetos = () => {
 
             <div ref={sectionRef} className='flex gap-10 justify-center flex-wrap'> 
                 <Cards
-                    img="..\src\assets\image\projeto-barbearia.png"
+                    img={pjtBarbearia}
                     alt="Barbearia"
                     title="Barbearia"
                     icon={[faHtml5, faCss3, faJs, faBootstrap]}
@@ -70,7 +73,7 @@ const Projetos = () => {
                 />
 
                 <Cards
-                    img="..\src\assets\image\projeto-clinica.png"
+                    img={pjtClinica}
                     alt="Clinica Odontológica"
                     title="Clinica Odontológica"
                     icon={[faHtml5, faCss3, faJs, faSass]}
@@ -80,7 +83,7 @@ const Projetos = () => {
                 />
 
                 <Cards
-                    img="..\src\assets\image\projeto-hamburgueria-tailwindcss.png"
+                    img={pjtHamburgueria}
                     alt="Hamburgueria"
                     title="Hamburgueria"
                     icon={[faHtml5, faCss3, faJs, faWater]}

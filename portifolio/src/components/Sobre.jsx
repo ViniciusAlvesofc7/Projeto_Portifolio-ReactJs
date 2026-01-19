@@ -1,6 +1,6 @@
 import { faAnglesRight } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import avatar from "../../src/assets/image/Avatar-Vinicius.png"
+import avatar from "/image/Avatar-Vinicius.png"
 
 const Sobre = () => {
 
