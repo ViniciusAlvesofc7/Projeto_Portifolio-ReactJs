@@ -2,7 +2,7 @@
 const CertificadoCards = (props) => {
     return (
         
-        <a href={props.link} target="_blank" rel="noopener noreferrer" className="certificado-card w-38 md:w-40 lg:w-40 flex flex-col items-center bg-gray-900 rounded-lg hover:scale-110 transition-all duration-500 cursor-pointer border-b-[2px] border-cyan-600 ">
+        <a href={props.link} target="_blank" rel="noopener noreferrer" className="certificado-card w-36 md:w-40 lg:w-40 flex flex-col items-center bg-gray-900 rounded-lg hover:scale-110 transition-all duration-500 cursor-pointer border-b-[2px] border-cyan-600 ">
             <img src={props.imgSrc} alt={props.altText} className="w-full rounded-t-lg"/>
             <div className="p-2 text-center">
                 <p className="text-white font-bold">{props.title} </p>

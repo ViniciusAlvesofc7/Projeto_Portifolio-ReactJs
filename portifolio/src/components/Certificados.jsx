@@ -41,7 +41,7 @@ const Certificados = () => {
     <div className="w-full flex flex-col items-center pt-10 pb-30" id="certificados">
       <h1 className="text-white font-bold p-2 mb-16 text-2xl border-b-[2px] border-cyan-600">Certificados</h1>
 
-      <div ref={sectionRef} className="flex flex-row flex-wrap justify-center gap-2 p-2 w-full">
+      <div ref={sectionRef} className="flex flex-row flex-wrap justify-center gap-2 w-full">
 
 
         <CertificadoCards
