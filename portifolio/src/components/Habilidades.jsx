@@ -1,6 +1,6 @@
 import { faBootstrap, faCss3, faHtml5, faJs, faReact, faSass } from "@fortawesome/free-brands-svg-icons"
 import { faWater } from "@fortawesome/free-solid-svg-icons"
-import Skills from "/Skills/Skills"
+import Skills from "./Skills/Skills"
 import gsap from "gsap"
 import { ScrollTrigger } from "gsap/ScrollTrigger"
 import { useRef } from "react"
