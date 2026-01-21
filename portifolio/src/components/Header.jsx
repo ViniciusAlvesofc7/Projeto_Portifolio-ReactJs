@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
 import {  useState } from 'react';
-import ModalMenu from './Modal/ModalMenu';
+import ModalMenu from '/Modal/ModalMenu';
 
 const Header = () => {
   const [openMenu, setOpenMenu] = useState(false);
