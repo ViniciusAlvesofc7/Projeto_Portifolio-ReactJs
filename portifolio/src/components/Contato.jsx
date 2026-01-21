@@ -1,5 +1,5 @@
 import { faEnvelope, faMobileScreenButton, } from '@fortawesome/free-solid-svg-icons'
-import ContatoIcon from './Contato/ContatoIcon'
+import ContatoIcon from './contato/ContatoIcon'
 import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
 
 

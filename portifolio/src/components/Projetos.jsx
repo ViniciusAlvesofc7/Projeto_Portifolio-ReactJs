@@ -1,4 +1,4 @@
-import Cards from './Cards/Cards'
+import Cards from './cards/Cards'
 import { faReact, faJs, faHtml5, faNodeJs, faCss3, faSass, faBootstrap } from '@fortawesome/free-brands-svg-icons'
 import { faWater } from "@fortawesome/free-solid-svg-icons"
 import gsap from "gsap"
