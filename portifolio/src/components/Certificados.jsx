@@ -1,4 +1,4 @@
-import CertificadoCards from "./certificadoCards/CertificadoCards"
+import CertificadoCards from "/CertificadoCards/CertificadoCards"
 import gsap from "gsap"
 import { ScrollTrigger } from "gsap/ScrollTrigger"
 import { useRef } from "react"
